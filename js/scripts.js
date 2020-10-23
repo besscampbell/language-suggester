@@ -11,7 +11,21 @@ $(document).ready(function(){
       const ruby= "Ruby";
       $(".output").show();
       $("#prog-lang-answer").text(ruby);
-
+    }
+    else if(quest1==="b" && quest2==="b" && quest3==="b" || quest1==="b" && quest2==="b" && quest4==="b" || quest1==="b" && quest3==="b" && quest4==="b" || quest2==="b" && quest3==="b" && quest4==="b"){
+      const python= "Python";
+      $(".output").show();
+      $("#prog-lang-answer").text(python);
+    }
+    else if (quest1==="C" && quest2==="c" && quest3==="c" || quest1==="c" && quest2==="c" && quest4==="c" || quest1==="c" && quest3==="c" && quest4==="c" || quest2==="c" && quest3==="c" && quest4==="c"){
+      const go= "Go";
+      $(".output").show();
+      $("#prog-lang-answer").text(go);
+    }
+    else if (quest1==="d" && quest2==="d" && quest3==="d" || quest1==="d" && quest2==="d" && quest4==="d" || quest1==="d" && quest3==="d" && quest4==="d" || quest2==="d" && quest3==="d" && quest4==="d"){
+      const rust= "Rust";
+      $(".output").show();
+      $("#prog-lang-answer").text(rust);
     }
   });
 });
