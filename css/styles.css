@@ -1,16 +1,25 @@
-.btn-primary{
+.btn-primary {
   border-radius: 75rem;
   padding: 1em;
   margin: 5em auto;
   color: black
 }
 
-#output{
+#output {
   display: none;
   text-align: center;
 }
 
-#ruby, #python-logo, #go, #rust{
+#ruby, #python-logo, #go, #rust {
   display: none;
   margin: 5em 20em;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }
