@@ -4,3 +4,8 @@
   margin: 5em auto;
   color: black
 }
+
+#output{
+  display: none;
+
+}

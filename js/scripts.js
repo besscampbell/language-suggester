@@ -8,35 +8,32 @@ $(document).ready(function(){
     const quest5= $("#color").val();
     console.log(quest1, quest2, quest3, quest4, quest5);
     
-    if ((quest1==="a" && quest2==="a" || quest1==="a" && quest3==="a" || quest1==="a" && quest4==="a" || quest2==="a" && quest3==="a" || quest2==="a" && quest4==="a" || quest3==="a" && quest4==="a")&&(quest1==="b" && quest2==="b" || quest1=="b" && quest3==="b" || quest1==="b" && quest4==="b" || quest2==="b" && quest3==="b" || quest2==="b" && quest4==="b" || quest3==="b" && quest4==="b")){
-      const rubyPython= "Ruby or Python";
+    if (quest1==="a" && quest2==="a" && quest3==="a" || quest1==="a" && quest2==="a" || quest1==="a" && quest3==="a" || quest2==="a" && quest3==="a"){
+      const ruby= "you would do well learning Ruby. You like to be productive but have fun!";
       $("#output").show();
       $("#prog-lang-answer").text(ruby);
     }
-    else if(quest1==="b" && quest2==="b" && quest3==="b" || quest1==="b" && quest2==="b" && quest4==="b" || quest1==="b" && quest3==="b" && quest4==="b" || quest2==="b" && quest3==="b" && quest4==="b"){
-      const python= "Python";
+    else if(quest1==="b" && quest2==="b" && quest3==="b" || quest1==="b" && quest2==="b" || quest1==="b" && quest3==="b" || quest2==="b" && quest3==="b"){
+      const python= "you would do well learning Python. You think beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.";
       $("#output").show();
       $("#prog-lang-answer").text(python);
     }
-    // else if (quest1==="C" && quest2==="c" && quest3==="c" || quest1==="c" && quest2==="c" && quest4==="c" || quest1==="c" && quest3==="c" && quest4==="c" || quest2==="c" && quest3==="c" && quest4==="c"){
-    //   const go= "Go";
-    //   $("#output").show();
-    //   $("#prog-lang-answer").text(go);
-    // }
-    // else if (quest1==="d" && quest2==="d" && quest3==="d" || quest1==="d" && quest2==="d" && quest4==="d" || quest1==="d" && quest3==="d" && quest4==="d" || quest2==="d" && quest3==="d" && quest4==="d"){
-    //   const rust= "Rust";
-      // $("#output").show();
-      // $("#prog-lang-answer").text(rust);
-    // }
+    else if (quest1==="C" && quest2==="c" && quest3==="c" || quest1==="c" && quest2==="c"|| quest1==="c" && quest3==="c" || quest2==="c" && quest3==="c"){
+      const go= "you would do well learning Go. You are efficient and high-performing.";
+      $("#output").show();
+      $("#prog-lang-answer").text(go);
+    }
+    else if (quest1==="d" && quest2==="d" && quest3==="d" || quest1==="d" && quest2==="d" || quest1==="d" && quest3==="d" || quest2==="d" && quest3==="d"){
+      const rust= "you would do well learning Rust. You are a performer at heart, with safety in mind. Above all else, you are the loved the most!";
+      $("#output").show();
+      $("#prog-lang-answer").text(rust);
+    }
+    else {
+      $("#output").show();
+      const tossUp= "you have many likes and little focus! You could choose any of these languages but I suggest you learn a little bit more about them here:"
+      $("#output").show();
+      $("#prog-lang-answer").text(tossUp);
+    }
   });
 });
 
-// if (quest1==="a" && quest2==="a" && quest3==="a" || quest1==="a" && quest2==="a" && quest4==="a" || quest1==="a" && quest3==="a" && quest4==="a" || quest2==="a" && quest3==="a" && quest4==="a"){
-//   const ruby= "Ruby";
-//   $("#output").show();
-//   $("#prog-lang-answer").text(ruby);
-// }
-// else if(quest1==="b" && quest2==="b" && quest3==="b" || quest1==="b" && quest2==="b" && quest4==="b" || quest1==="b" && quest3==="b" && quest4==="b" || quest2==="b" && quest3==="b" && quest4==="b"){
-//   const python= "Python";
-//   $("#output").show();
-//   $("#prog-lang-answer").text(python);
