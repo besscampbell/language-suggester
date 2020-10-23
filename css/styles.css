@@ -8,6 +8,7 @@
 body {
   font-family: monospace;
   padding-bottom: 60px;
+  background: rgb(238, 248, 199)
 }
 
 .jumbotron {
@@ -18,6 +19,10 @@ body {
 input[type="radio"], label{
   padding: 5px;
   margin: 5px;
+}
+
+#year-range, #color {
+  width: 33%;
 }
 
 #output {
