@@ -21,25 +21,25 @@
         <h3>Out of the following options, where would you most llike to visit?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="destination" value="japan">
+              <input type="radio" name="destination" value="a">
               Japan
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="destination" value="netherlands">
+              <input type="radio" name="destination" value="b">
               The Netherlands
             </label>
           </div> 
           <div class="radio">
             <label>
-              <input type="radio" name="destination" value="mountain">
+              <input type="radio" name="destination" value="d">
               Anywhere with a mountain view
             </label>
           </div>
           <div class="radio" >
             <label>
-              <input type="radio" name="destination" value="california">
+              <input type="radio" name="destination" value="c">
               California
             </label>
           </div>
@@ -49,28 +49,28 @@
         <h3>Which of these animals would you say best describes how  you feel in the morning?</h3>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="python">
+            <input type="radio" name="animal" value="b">
             <img id="python" src="img/python.jpg" alt="A photo of a python">
             Python
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="crab">
+            <input type="radio" name="animal" value="d">
             <img id="crab" src="img/crab.jpg" alt="A photo of a crab">
             Crab
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="gopher">
+            <input type="radio" name="animal" value="c">
             <img id="gopher" src="img/gopher.jpg" alt="A photo of a gopher">
             Gopher
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="human">
+            <input type="radio" name="animal" value="a">
             <img id="person" src="img/person.jpg" alt="A photo of a person">
             I've never felt like an animal, because I'm a human!
           </label>
@@ -81,25 +81,25 @@
         <h3>Which of these activities would you most enjoy spending your day doing?</h3>
         <div class="radio">
           <label>
-            <input type="radio" name="activity" value="games">
+            <input type="radio" name="activity" value="c">
             Playing games
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="activity" value="rocks">
+            <input type="radio" name="activity" value="a">
             Polishing rocks
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="activity" value="nature">
+            <input type="radio" name="activity" value="b">
             Slinking around in nature
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="activity" value="nothing">
+            <input type="radio" name="activity" value="d">
             Sitting around, letting the world corrode around you
           </label>
         </div>
@@ -108,10 +108,10 @@
       <div class="pt-5">
        <h3>Please select the range of years between which you were born.</h3> 
        <select class="form-control" id="year-range">
-         <option value="1">Before or in 1990</option>
-         <option value="2">Between 1991-1999</option>
-         <option value="3">Between 2000-2009</option>
-         <option value="4">In 2010 or after</option>
+         <option value="b">Before or in 1990</option>
+         <option value="a">Between 1991-1999</option>
+         <option value="c">Between 2000-2009</option>
+         <option value="d">In 2010 or after</option>
        </select>
       </div>
       <!--Q5-->
@@ -125,8 +125,10 @@
     </form>
 
   </div>
-  <div class="output">
-
+  <div class="container output">
+    <p>
+      Based on your results you would do well working with <span id="prog-lang-answer"></span>! <br />
+    </p>
   </div>
   
 </body>
