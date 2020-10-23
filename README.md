@@ -1,5 +1,4 @@
-# Language Selecto
-r
+# Language Selector
 
 #### Take a quiz and find the programming language best suited for you, 10.23.2020 
 
