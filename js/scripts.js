@@ -40,7 +40,7 @@ $(document).ready(function(){
     }
     else {
       $("#output").show();
-      const tossUp= "you have many likes and little focus! You could choose any of these languages but I suggest you learn a little bit more about them here:"
+      const tossUp= "you have many likes and little focus! You could choose any of these languages but I suggest you do some more research. Click on a logo to learn more about each programming language."
       $("#output").show();
       $("#prog-lang-answer").text(tossUp);
       // $(".logo").hide();
