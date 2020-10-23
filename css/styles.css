@@ -1,13 +1,28 @@
-.btn-primary {
+.btn-warning {
   border-radius: 75rem;
   padding: 1em;
   margin: 5em auto;
   color: black
 }
 
+body {
+  font-family: monospace;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: rgb(243, 182, 50);
+}
+
+input[type="radio"], label{
+  padding: 5px;
+  margin: 5px;
+}
+
 #output {
   display: none;
   text-align: center;
+  background-color: 
 }
 
 #ruby, #python-logo, #go, #rust {
