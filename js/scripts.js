@@ -55,7 +55,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $(".clickable").click(function(){
-    $("#language").show().trigger("reset");
+    $("#language, .radio-pic").show().trigger("reset");
     $("#output").toggle();
   });
 });
