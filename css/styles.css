@@ -27,9 +27,7 @@ input[type="radio"], label{
 
 #output {
   display: none;
-  text-align: center;
-  background-color: 
-  
+  text-align: center; 
 }
 
 #ruby, #python-logo, #go, #rust {
